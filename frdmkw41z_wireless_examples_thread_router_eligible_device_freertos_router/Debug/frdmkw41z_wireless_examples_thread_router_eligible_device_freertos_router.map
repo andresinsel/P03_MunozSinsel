@@ -3742,7 +3742,7 @@ LOAD d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.
  .FlashConfig   0x00000400       0x10 ./startup/startup_MKW41Z4.o
                 0x00000410                . = ALIGN (0x4)
 
-.text           0x00000420    0x54ac8
+.text           0x00000420    0x54aec
                 0x00000420                . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(.text))
  .text          0x00000420     0x1168 D:\Andre\OneDrive - ITESO\7 Semestre\RSE\frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_router\libs\lib_thread_cm0.a(dhcp6_client.o)
@@ -7716,688 +7716,688 @@ LOAD d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.
                 0x000511c8       0x95 ./nwk_ip/base/shell/shell_ip.o
  *fill*         0x0005125d        0x3 
  .rodata.str1.4
-                0x00051260     0x11ec ./nwk_ip/base/shell/shell_ip.o
-                               0x11f0 (size before relaxing)
+                0x00051260     0x1210 ./nwk_ip/base/shell/shell_ip.o
+                               0x1214 (size before relaxing)
  .rodata.aShellCommands
-                0x0005244c      0x150 ./nwk_ip/base/shell/shell_ip.o
-                0x0005244c                aShellCommands
+                0x00052470      0x150 ./nwk_ip/base/shell/shell_ip.o
+                0x00052470                aShellCommands
  .rodata.aShellThrAttr
-                0x0005259c      0x3e8 ./nwk_ip/base/shell/shell_ip.o
-                0x0005259c                aShellThrAttr
+                0x000525c0      0x3e8 ./nwk_ip/base/shell/shell_ip.o
+                0x000525c0                aShellThrAttr
  .rodata.gaShellProtMsgTypeHandlerTbl4
-                0x00052984        0x8 ./nwk_ip/base/shell/shell_ip.o
-                0x00052984                gaShellProtMsgTypeHandlerTbl4
+                0x000529a8        0x8 ./nwk_ip/base/shell/shell_ip.o
+                0x000529a8                gaShellProtMsgTypeHandlerTbl4
  .rodata.gaShellProtMsgTypeHandlerTbl6
-                0x0005298c        0x8 ./nwk_ip/base/shell/shell_ip.o
-                0x0005298c                gaShellProtMsgTypeHandlerTbl6
+                0x000529b0        0x8 ./nwk_ip/base/shell/shell_ip.o
+                0x000529b0                gaShellProtMsgTypeHandlerTbl6
  .rodata.mThrInterfaces
-                0x00052994       0x30 ./nwk_ip/base/shell/shell_ip.o
-                0x00052994                mThrInterfaces
+                0x000529b8       0x30 ./nwk_ip/base/shell/shell_ip.o
+                0x000529b8                mThrInterfaces
  .rodata.g6LowPanMediaIf
-                0x000529c4       0x20 ./nwk_ip/base/ip_media_if/ip_if_6lo.o
+                0x000529e8       0x20 ./nwk_ip/base/ip_media_if/ip_if_6lo.o
  .rodata.mAdpCallbacks
-                0x000529e4        0x8 ./nwk_ip/base/ip_media_if/ip_if_6lo.o
+                0x00052a08        0x8 ./nwk_ip/base/ip_media_if/ip_if_6lo.o
  .rodata.gLoopbackMediaIf
-                0x000529ec       0x20 ./nwk_ip/base/ip_media_if/ip_if_loopback.o
+                0x00052a10       0x20 ./nwk_ip/base/ip_media_if/ip_if_loopback.o
  .rodata.gLedAppState
-                0x00052a0c       0x48 ./nwk_ip/app/common/app_led.o
-                0x00052a0c                gLedAppState
+                0x00052a30       0x48 ./nwk_ip/app/common/app_led.o
+                0x00052a30                gLedAppState
  .rodata.gLedCfgAppLedColorWheel
-                0x00052a54       0x10 ./nwk_ip/app/common/app_led.o
-                0x00052a54                gLedCfgAppLedColorWheel
+                0x00052a78       0x10 ./nwk_ip/app/common/app_led.o
+                0x00052a78                gLedCfgAppLedColorWheel
  .rodata.gLedCfgAppLedFlash
-                0x00052a64       0x10 ./nwk_ip/app/common/app_led.o
-                0x00052a64                gLedCfgAppLedFlash
+                0x00052a88       0x10 ./nwk_ip/app/common/app_led.o
+                0x00052a88                gLedCfgAppLedFlash
  .rodata.gLedCfgAppLedOff
-                0x00052a74       0x10 ./nwk_ip/app/common/app_led.o
-                0x00052a74                gLedCfgAppLedOff
+                0x00052a98       0x10 ./nwk_ip/app/common/app_led.o
+                0x00052a98                gLedCfgAppLedOff
  .rodata.gLedCfgAppLedOn
-                0x00052a84       0x10 ./nwk_ip/app/common/app_led.o
-                0x00052a84                gLedCfgAppLedOn
+                0x00052aa8       0x10 ./nwk_ip/app/common/app_led.o
+                0x00052aa8                gLedCfgAppLedOn
  .rodata.gLedCfgAppLedToggle
-                0x00052a94       0x10 ./nwk_ip/app/common/app_led.o
-                0x00052a94                gLedCfgAppLedToggle
+                0x00052ab8       0x10 ./nwk_ip/app/common/app_led.o
+                0x00052ab8                gLedCfgAppLedToggle
  .rodata.gLedCfgFactoryDefault
-                0x00052aa4       0x10 ./nwk_ip/app/common/app_led.o
-                0x00052aa4                gLedCfgFactoryDefault
+                0x00052ac8       0x10 ./nwk_ip/app/common/app_led.o
+                0x00052ac8                gLedCfgFactoryDefault
  .rodata.gLedCfgIsActiveRouter
-                0x00052ab4       0x10 ./nwk_ip/app/common/app_led.o
-                0x00052ab4                gLedCfgIsActiveRouter
+                0x00052ad8       0x10 ./nwk_ip/app/common/app_led.o
+                0x00052ad8                gLedCfgIsActiveRouter
  .rodata.gLedCfgIsLeader
-                0x00052ac4       0x10 ./nwk_ip/app/common/app_led.o
-                0x00052ac4                gLedCfgIsLeader
+                0x00052ae8       0x10 ./nwk_ip/app/common/app_led.o
+                0x00052ae8                gLedCfgIsLeader
  .rodata.gLedCfgJoiningOrAttaching
-                0x00052ad4       0x10 ./nwk_ip/app/common/app_led.o
-                0x00052ad4                gLedCfgJoiningOrAttaching
+                0x00052af8       0x10 ./nwk_ip/app/common/app_led.o
+                0x00052af8                gLedCfgJoiningOrAttaching
  .rodata.gLedCfgNwkConnected
-                0x00052ae4       0x10 ./nwk_ip/app/common/app_led.o
-                0x00052ae4                gLedCfgNwkConnected
+                0x00052b08       0x10 ./nwk_ip/app/common/app_led.o
+                0x00052b08                gLedCfgNwkConnected
  .rodata.gLedCfgNwkOperationPending
-                0x00052af4       0x10 ./nwk_ip/app/common/app_led.o
-                0x00052af4                gLedCfgNwkOperationPending
+                0x00052b18       0x10 ./nwk_ip/app/common/app_led.o
+                0x00052b18                gLedCfgNwkOperationPending
  .rodata.gLedConfigState
-                0x00052b04       0x38 ./nwk_ip/app/common/app_led.o
-                0x00052b04                gLedConfigState
+                0x00052b28       0x38 ./nwk_ip/app/common/app_led.o
+                0x00052b28                gLedConfigState
  .rodata.App_GetTempDataString.str1.4
-                0x00052b3c        0x6 ./nwk_ip/app/common/app_temp_sensor.o
+                0x00052b60        0x6 ./nwk_ip/app/common/app_temp_sensor.o
  .rodata.APP_MeshcopValidateJoinerAddrCb.str1.4
-                0x00052b42        0x9 ./nwk_ip/app/common/app_thread_callbacks.o
+                0x00052b66        0x9 ./nwk_ip/app/common/app_thread_callbacks.o
  .rodata.APP_NwkData_ServiceDataCb.str1.4
-                0x00052b42        0xa ./nwk_ip/app/common/app_thread_callbacks.o
- *fill*         0x00052b42        0x2 
+                0x00052b66        0xa ./nwk_ip/app/common/app_thread_callbacks.o
+ *fill*         0x00052b66        0x2 
  .rodata.str1.4
-                0x00052b44        0x9 ./nwk_ip/app/common/app_thread_init.o
- *fill*         0x00052b4d        0x3 
+                0x00052b68        0x9 ./nwk_ip/app/common/app_thread_init.o
+ *fill*         0x00052b71        0x3 
  .rodata.PHY_InterruptHandler
-                0x00052b50       0x18 ./ieee_802.15.4/phy/source/MKW41Z/PhyISR.o
+                0x00052b74       0x18 ./ieee_802.15.4/phy/source/MKW41Z/PhyISR.o
  .rodata.PhyPlmeSetPIBRequest
-                0x00052b68       0x44 ./ieee_802.15.4/phy/source/MKW41Z/PhyPlmeData.o
+                0x00052b8c       0x44 ./ieee_802.15.4/phy/source/MKW41Z/PhyPlmeData.o
  .rodata.PhyPlmeGetPIBRequest
-                0x00052bac       0x44 ./ieee_802.15.4/phy/source/MKW41Z/PhyPlmeData.o
+                0x00052bd0       0x44 ./ieee_802.15.4/phy/source/MKW41Z/PhyPlmeData.o
  .rodata.MAC_PLME_SapHandler
-                0x00052bf0       0x24 ./ieee_802.15.4/phy/source/MKW41Z/PhyStateMachine.o
+                0x00052c14       0x24 ./ieee_802.15.4/phy/source/MKW41Z/PhyStateMachine.o
  .rodata.str1.4
-                0x00052c14        0x9 ./ieee_802.15.4/mac/source/App/MacGlobals.o
- *fill*         0x00052c1d        0x3 
+                0x00052c38        0x9 ./ieee_802.15.4/mac/source/App/MacGlobals.o
+ *fill*         0x00052c41        0x3 
  .rodata.vTaskStartScheduler.str1.4
-                0x00052c20        0x5 ./freertos/tasks.o
- *fill*         0x00052c25        0x3 
+                0x00052c44        0x5 ./freertos/tasks.o
+ *fill*         0x00052c49        0x3 
  .rodata.prvCheckForValidListAndQueue.str1.4
-                0x00052c28        0x5 ./freertos/timers.o
- *fill*         0x00052c2d        0x3 
+                0x00052c4c        0x5 ./freertos/timers.o
+ *fill*         0x00052c51        0x3 
  .rodata.xTimerCreateTimerTask.str1.4
-                0x00052c30        0x8 ./freertos/timers.o
+                0x00052c54        0x8 ./freertos/timers.o
  .rodata.prvProcessReceivedCommands
-                0x00052c38       0x28 ./freertos/timers.o
+                0x00052c5c       0x28 ./freertos/timers.o
  .rodata.ant_mode_config
-                0x00052c60       0x48 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_ant_config.o
-                0x00052c60                ant_mode_config
+                0x00052c84       0x48 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_ant_config.o
+                0x00052c84                ant_mode_config
  .rodata.xcvr_ANT_1mbps_config
-                0x00052ca8       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_ant_config.o
-                0x00052ca8                xcvr_ANT_1mbps_config
+                0x00052ccc       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_ant_config.o
+                0x00052ccc                xcvr_ANT_1mbps_config
  .rodata.ble_mode_config
-                0x00052d18       0x48 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_ble_config.o
-                0x00052d18                ble_mode_config
+                0x00052d3c       0x48 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_ble_config.o
+                0x00052d3c                ble_mode_config
  .rodata.xcvr_BLE_1mbps_config
-                0x00052d60       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_ble_config.o
-                0x00052d60                xcvr_BLE_1mbps_config
+                0x00052d84       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_ble_config.o
+                0x00052d84                xcvr_BLE_1mbps_config
  .rodata.xcvr_common_config
-                0x00052dd0      0x23c ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_common_config.o
-                0x00052dd0                xcvr_common_config
+                0x00052df4      0x23c ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_common_config.o
+                0x00052df4                xcvr_common_config
  .rodata.gfsk_bt_0p3_h_0p5_mode_config
-                0x0005300c       0x48 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p3_h_0p5_config.o
-                0x0005300c                gfsk_bt_0p3_h_0p5_mode_config
+                0x00053030       0x48 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p3_h_0p5_config.o
+                0x00053030                gfsk_bt_0p3_h_0p5_mode_config
  .rodata.xcvr_GFSK_BT_0p3_h_0p5_1mbps_config
-                0x00053054       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p3_h_0p5_config.o
-                0x00053054                xcvr_GFSK_BT_0p3_h_0p5_1mbps_config
+                0x00053078       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p3_h_0p5_config.o
+                0x00053078                xcvr_GFSK_BT_0p3_h_0p5_1mbps_config
  .rodata.xcvr_GFSK_BT_0p3_h_0p5_250kbps_config
-                0x000530c4       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p3_h_0p5_config.o
-                0x000530c4                xcvr_GFSK_BT_0p3_h_0p5_250kbps_config
+                0x000530e8       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p3_h_0p5_config.o
+                0x000530e8                xcvr_GFSK_BT_0p3_h_0p5_250kbps_config
  .rodata.xcvr_GFSK_BT_0p3_h_0p5_500kbps_config
-                0x00053134       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p3_h_0p5_config.o
-                0x00053134                xcvr_GFSK_BT_0p3_h_0p5_500kbps_config
+                0x00053158       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p3_h_0p5_config.o
+                0x00053158                xcvr_GFSK_BT_0p3_h_0p5_500kbps_config
  .rodata.gfsk_bt_0p5_h_0p32_mode_config
-                0x000531a4       0x48 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_0p32_config.o
-                0x000531a4                gfsk_bt_0p5_h_0p32_mode_config
+                0x000531c8       0x48 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_0p32_config.o
+                0x000531c8                gfsk_bt_0p5_h_0p32_mode_config
  .rodata.xcvr_GFSK_BT_0p5_h_0p32_1mbps_config
-                0x000531ec       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_0p32_config.o
-                0x000531ec                xcvr_GFSK_BT_0p5_h_0p32_1mbps_config
+                0x00053210       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_0p32_config.o
+                0x00053210                xcvr_GFSK_BT_0p5_h_0p32_1mbps_config
  .rodata.xcvr_GFSK_BT_0p5_h_0p32_250kbps_config
-                0x0005325c       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_0p32_config.o
-                0x0005325c                xcvr_GFSK_BT_0p5_h_0p32_250kbps_config
+                0x00053280       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_0p32_config.o
+                0x00053280                xcvr_GFSK_BT_0p5_h_0p32_250kbps_config
  .rodata.xcvr_GFSK_BT_0p5_h_0p32_500kbps_config
-                0x000532cc       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_0p32_config.o
-                0x000532cc                xcvr_GFSK_BT_0p5_h_0p32_500kbps_config
+                0x000532f0       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_0p32_config.o
+                0x000532f0                xcvr_GFSK_BT_0p5_h_0p32_500kbps_config
  .rodata.gfsk_bt_0p5_h_0p5_mode_config
-                0x0005333c       0x48 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_0p5_config.o
-                0x0005333c                gfsk_bt_0p5_h_0p5_mode_config
+                0x00053360       0x48 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_0p5_config.o
+                0x00053360                gfsk_bt_0p5_h_0p5_mode_config
  .rodata.xcvr_GFSK_BT_0p5_h_0p5_1mbps_config
-                0x00053384       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_0p5_config.o
-                0x00053384                xcvr_GFSK_BT_0p5_h_0p5_1mbps_config
+                0x000533a8       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_0p5_config.o
+                0x000533a8                xcvr_GFSK_BT_0p5_h_0p5_1mbps_config
  .rodata.xcvr_GFSK_BT_0p5_h_0p5_250kbps_config
-                0x000533f4       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_0p5_config.o
-                0x000533f4                xcvr_GFSK_BT_0p5_h_0p5_250kbps_config
+                0x00053418       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_0p5_config.o
+                0x00053418                xcvr_GFSK_BT_0p5_h_0p5_250kbps_config
  .rodata.xcvr_GFSK_BT_0p5_h_0p5_500kbps_config
-                0x00053464       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_0p5_config.o
-                0x00053464                xcvr_GFSK_BT_0p5_h_0p5_500kbps_config
+                0x00053488       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_0p5_config.o
+                0x00053488                xcvr_GFSK_BT_0p5_h_0p5_500kbps_config
  .rodata.gfsk_bt_0p5_h_0p7_mode_config
-                0x000534d4       0x48 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_0p7_config.o
-                0x000534d4                gfsk_bt_0p5_h_0p7_mode_config
+                0x000534f8       0x48 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_0p7_config.o
+                0x000534f8                gfsk_bt_0p5_h_0p7_mode_config
  .rodata.xcvr_GFSK_BT_0p5_h_0p7_1mbps_config
-                0x0005351c       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_0p7_config.o
-                0x0005351c                xcvr_GFSK_BT_0p5_h_0p7_1mbps_config
+                0x00053540       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_0p7_config.o
+                0x00053540                xcvr_GFSK_BT_0p5_h_0p7_1mbps_config
  .rodata.xcvr_GFSK_BT_0p5_h_0p7_250kbps_config
-                0x0005358c       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_0p7_config.o
-                0x0005358c                xcvr_GFSK_BT_0p5_h_0p7_250kbps_config
+                0x000535b0       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_0p7_config.o
+                0x000535b0                xcvr_GFSK_BT_0p5_h_0p7_250kbps_config
  .rodata.xcvr_GFSK_BT_0p5_h_0p7_500kbps_config
-                0x000535fc       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_0p7_config.o
-                0x000535fc                xcvr_GFSK_BT_0p5_h_0p7_500kbps_config
+                0x00053620       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_0p7_config.o
+                0x00053620                xcvr_GFSK_BT_0p5_h_0p7_500kbps_config
  .rodata.gfsk_bt_0p5_h_1p0_mode_config
-                0x0005366c       0x48 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_1p0_config.o
-                0x0005366c                gfsk_bt_0p5_h_1p0_mode_config
+                0x00053690       0x48 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_1p0_config.o
+                0x00053690                gfsk_bt_0p5_h_1p0_mode_config
  .rodata.xcvr_GFSK_BT_0p5_h_1p0_1mbps_config
-                0x000536b4       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_1p0_config.o
-                0x000536b4                xcvr_GFSK_BT_0p5_h_1p0_1mbps_config
+                0x000536d8       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_1p0_config.o
+                0x000536d8                xcvr_GFSK_BT_0p5_h_1p0_1mbps_config
  .rodata.xcvr_GFSK_BT_0p5_h_1p0_250kbps_config
-                0x00053724       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_1p0_config.o
-                0x00053724                xcvr_GFSK_BT_0p5_h_1p0_250kbps_config
+                0x00053748       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_1p0_config.o
+                0x00053748                xcvr_GFSK_BT_0p5_h_1p0_250kbps_config
  .rodata.xcvr_GFSK_BT_0p5_h_1p0_500kbps_config
-                0x00053794       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_1p0_config.o
-                0x00053794                xcvr_GFSK_BT_0p5_h_1p0_500kbps_config
+                0x000537b8       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p5_h_1p0_config.o
+                0x000537b8                xcvr_GFSK_BT_0p5_h_1p0_500kbps_config
  .rodata.gfsk_bt_0p7_h_0p5_mode_config
-                0x00053804       0x48 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p7_h_0p5_config.o
-                0x00053804                gfsk_bt_0p7_h_0p5_mode_config
+                0x00053828       0x48 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p7_h_0p5_config.o
+                0x00053828                gfsk_bt_0p7_h_0p5_mode_config
  .rodata.xcvr_GFSK_BT_0p7_h_0p5_1mbps_config
-                0x0005384c       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p7_h_0p5_config.o
-                0x0005384c                xcvr_GFSK_BT_0p7_h_0p5_1mbps_config
+                0x00053870       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p7_h_0p5_config.o
+                0x00053870                xcvr_GFSK_BT_0p7_h_0p5_1mbps_config
  .rodata.xcvr_GFSK_BT_0p7_h_0p5_250kbps_config
-                0x000538bc       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p7_h_0p5_config.o
-                0x000538bc                xcvr_GFSK_BT_0p7_h_0p5_250kbps_config
+                0x000538e0       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p7_h_0p5_config.o
+                0x000538e0                xcvr_GFSK_BT_0p7_h_0p5_250kbps_config
  .rodata.xcvr_GFSK_BT_0p7_h_0p5_500kbps_config
-                0x0005392c       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p7_h_0p5_config.o
-                0x0005392c                xcvr_GFSK_BT_0p7_h_0p5_500kbps_config
+                0x00053950       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_gfsk_bt_0p7_h_0p5_config.o
+                0x00053950                xcvr_GFSK_BT_0p7_h_0p5_500kbps_config
  .rodata.xcvr_1mbps_config
-                0x0005399c       0x38 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_mode_datarate_config.o
-                0x0005399c                xcvr_1mbps_config
+                0x000539c0       0x38 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_mode_datarate_config.o
+                0x000539c0                xcvr_1mbps_config
  .rodata.xcvr_250kbps_config
-                0x000539d4       0x38 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_mode_datarate_config.o
-                0x000539d4                xcvr_250kbps_config
+                0x000539f8       0x38 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_mode_datarate_config.o
+                0x000539f8                xcvr_250kbps_config
  .rodata.xcvr_500kbps_config
-                0x00053a0c       0x38 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_mode_datarate_config.o
-                0x00053a0c                xcvr_500kbps_config
+                0x00053a30       0x38 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_mode_datarate_config.o
+                0x00053a30                xcvr_500kbps_config
  .rodata.msk_mode_config
-                0x00053a44       0x48 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_msk_config.o
-                0x00053a44                msk_mode_config
+                0x00053a68       0x48 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_msk_config.o
+                0x00053a68                msk_mode_config
  .rodata.xcvr_MSK_1mbps_config
-                0x00053a8c       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_msk_config.o
-                0x00053a8c                xcvr_MSK_1mbps_config
+                0x00053ab0       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_msk_config.o
+                0x00053ab0                xcvr_MSK_1mbps_config
  .rodata.xcvr_MSK_250kbps_config
-                0x00053afc       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_msk_config.o
-                0x00053afc                xcvr_MSK_250kbps_config
+                0x00053b20       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_msk_config.o
+                0x00053b20                xcvr_MSK_250kbps_config
  .rodata.xcvr_MSK_500kbps_config
-                0x00053b6c       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_msk_config.o
-                0x00053b6c                xcvr_MSK_500kbps_config
+                0x00053b90       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_msk_config.o
+                0x00053b90                xcvr_MSK_500kbps_config
  .rodata.xcvr_802_15_4_500kbps_config
-                0x00053bdc       0x38 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_zgbe_config.o
-                0x00053bdc                xcvr_802_15_4_500kbps_config
+                0x00053c00       0x38 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_zgbe_config.o
+                0x00053c00                xcvr_802_15_4_500kbps_config
  .rodata.xcvr_ZIGBEE_500kbps_config
-                0x00053c14       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_zgbe_config.o
-                0x00053c14                xcvr_ZIGBEE_500kbps_config
+                0x00053c38       0x70 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_zgbe_config.o
+                0x00053c38                xcvr_ZIGBEE_500kbps_config
  .rodata.zgbe_mode_config
-                0x00053c84       0x48 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_zgbe_config.o
-                0x00053c84                zgbe_mode_config
+                0x00053ca8       0x48 ./framework/XCVR/MKW41Z4/cfgs_kw4x_3x_2x/fsl_xcvr_zgbe_config.o
+                0x00053ca8                zgbe_mode_config
  .rodata.XCVR_GetDefaultConfig
-                0x00053ccc       0x28 ./framework/XCVR/MKW41Z4/fsl_xcvr.o
+                0x00053cf0       0x28 ./framework/XCVR/MKW41Z4/fsl_xcvr.o
  .rodata.mapTable
-                0x00053cf4      0x400 ./framework/XCVR/MKW41Z4/fsl_xcvr.o
-                0x00053cf4                mapTable
+                0x00053d18      0x400 ./framework/XCVR/MKW41Z4/fsl_xcvr.o
+                0x00053d18                mapTable
  .rodata.rx_bba_dcoc_dac_trim_DCest
-                0x000540f4       0x2c ./framework/XCVR/MKW41Z4/fsl_xcvr_trim.o
+                0x00054118       0x2c ./framework/XCVR/MKW41Z4/fsl_xcvr_trim.o
  .rodata.BLOCK_1_IFR
-                0x00054120       0x10 ./framework/XCVR/MKW41Z4/ifr_radio.o
-                0x00054120                BLOCK_1_IFR
+                0x00054144       0x10 ./framework/XCVR/MKW41Z4/ifr_radio.o
+                0x00054144                BLOCK_1_IFR
  .rodata.mTpmBase
-                0x00054130        0xc ./framework/TimersManager/Source/TMR_Adapter.o
+                0x00054154        0xc ./framework/TimersManager/Source/TMR_Adapter.o
  .rodata.mTpmConfig
-                0x0005413c        0xa ./framework/TimersManager/Source/TMR_Adapter.o
- *fill*         0x00054146        0x2 
+                0x00054160        0xa ./framework/TimersManager/Source/TMR_Adapter.o
+ *fill*         0x0005416a        0x2 
  .rodata.str1.4
-                0x00054148        0x9 ./framework/TimersManager/Source/TimersManager.o
+                0x0005416c        0x9 ./framework/TimersManager/Source/TimersManager.o
  .rodata.shell_cmd_finished.str1.4
-                0x00054151        0x3 ./framework/Shell/Source/shell.o
- *fill*         0x00054151        0x3 
+                0x00054175        0x3 ./framework/Shell/Source/shell.o
+ *fill*         0x00054175        0x3 
  .rodata.shell_ProcessChr.str1.4
-                0x00054154       0x1e ./framework/Shell/Source/shell.o
- *fill*         0x00054172        0x2 
+                0x00054178       0x1e ./framework/Shell/Source/shell.o
+ *fill*         0x00054196        0x2 
  .rodata.shell_ProcessChr
-                0x00054174      0x220 ./framework/Shell/Source/shell.o
+                0x00054198      0x220 ./framework/Shell/Source/shell.o
  .rodata.shell_main.str1.4
-                0x00054394        0xe ./framework/Shell/Source/shell.o
+                0x000543b8        0xe ./framework/Shell/Source/shell.o
                                  0x8e (size before relaxing)
  .rodata.print_argv.str1.4
-                0x000543a2        0x3 ./framework/Shell/Source/shell_autocomplete.o
+                0x000543c6        0x3 ./framework/Shell/Source/shell_autocomplete.o
  .rodata.complete_cmdv.str1.4
-                0x000543a2        0xe ./framework/Shell/Source/shell_autocomplete.o
+                0x000543c6        0xe ./framework/Shell/Source/shell_autocomplete.o
                                   0x4 (size before relaxing)
  .rodata.cmd_auto_complete.str1.4
-                0x000543a2        0xb ./framework/Shell/Source/shell_autocomplete.o
- *fill*         0x000543a2        0x2 
+                0x000543c6        0xb ./framework/Shell/Source/shell_autocomplete.o
+ *fill*         0x000543c6        0x2 
  .rodata.DoVer.str1.4
-                0x000543a4       0x21 ./framework/Shell/Source/shell_cmdhelp.o
+                0x000543c8       0x21 ./framework/Shell/Source/shell_cmdhelp.o
                                  0x27 (size before relaxing)
- *fill*         0x000543c5        0x3 
+ *fill*         0x000543e9        0x3 
  .rodata.DoHelp.str1.4
-                0x000543c8       0x1a ./framework/Shell/Source/shell_cmdhelp.o
+                0x000543ec       0x1a ./framework/Shell/Source/shell_cmdhelp.o
                                  0x46 (size before relaxing)
- *fill*         0x000543e2        0x2 
+ *fill*         0x00054406        0x2 
  .rodata.str1.4
-                0x000543e4       0xc5 ./framework/Shell/Source/shell_cmdhelp.o
- *fill*         0x000544a9        0x3 
+                0x00054408       0xc5 ./framework/Shell/Source/shell_cmdhelp.o
+ *fill*         0x000544cd        0x3 
  .rodata.CommandFun_Help
-                0x000544ac       0x18 ./framework/Shell/Source/shell_cmdhelp.o
-                0x000544ac                CommandFun_Help
+                0x000544d0       0x18 ./framework/Shell/Source/shell_cmdhelp.o
+                0x000544d0                CommandFun_Help
  .rodata.CommandFun_Ver
-                0x000544c4       0x18 ./framework/Shell/Source/shell_cmdhelp.o
-                0x000544c4                CommandFun_Ver
+                0x000544e8       0x18 ./framework/Shell/Source/shell_cmdhelp.o
+                0x000544e8                CommandFun_Ver
  .rodata.DoHist.str1.4
-                0x000544dc       0xc5 ./framework/Shell/Source/shell_cmdhist.o
+                0x00054500       0xc5 ./framework/Shell/Source/shell_cmdhist.o
                                   0xb (size before relaxing)
  .rodata.str1.4
-                0x000544dc       0x16 ./framework/Shell/Source/shell_cmdhist.o
- *fill*         0x000544f2        0x2 
+                0x00054500       0x16 ./framework/Shell/Source/shell_cmdhist.o
+ *fill*         0x00054516        0x2 
  .rodata.CommandFun_Hist
-                0x000544f4       0x18 ./framework/Shell/Source/shell_cmdhist.o
-                0x000544f4                CommandFun_Hist
+                0x00054518       0x18 ./framework/Shell/Source/shell_cmdhist.o
+                0x00054518                CommandFun_Hist
  .rodata.str1.4
-                0x0005450c       0x12 ./framework/SerialManager/Source/SerialManager.o
- *fill*         0x0005451e        0x2 
+                0x00054530       0x12 ./framework/SerialManager/Source/SerialManager.o
+ *fill*         0x00054542        0x2 
  .rodata.str1.4
-                0x00054520        0xd ./framework/OSAbstraction/Source/fsl_os_abstraction_free_rtos.o
- *fill*         0x0005452d        0x3 
+                0x00054544        0xd ./framework/OSAbstraction/Source/fsl_os_abstraction_free_rtos.o
+ *fill*         0x00054551        0x3 
  .rodata.osEventInfo
-                0x00054530        0xc ./framework/OSAbstraction/Source/fsl_os_abstraction_free_rtos.o
-                0x00054530                osEventInfo
+                0x00054554        0xc ./framework/OSAbstraction/Source/fsl_os_abstraction_free_rtos.o
+                0x00054554                osEventInfo
  .rodata.pNVM_DataTable
-                0x0005453c        0x4 ./framework/NVM/Source/NV_Flash.o
-                0x0005453c                pNVM_DataTable
+                0x00054560        0x4 ./framework/NVM/Source/NV_Flash.o
+                0x00054560                pNVM_DataTable
  .rodata.str1.4
-                0x00054540       0x1e ./framework/ModuleInfo/ModuleInfo.o
- *fill*         0x0005455e        0x2 
+                0x00054564       0x1e ./framework/ModuleInfo/ModuleInfo.o
+ *fill*         0x00054582        0x2 
  .rodata.gColorWheel
-                0x00054560       0x24 ./framework/LED/Source/LED.o
-                0x00054560                gColorWheel
+                0x00054584       0x24 ./framework/LED/Source/LED.o
+                0x00054584                gColorWheel
  .rodata.TsiSwTriggerCallback.str1.4
-                0x00054584       0xb6 ./framework/Keyboard/Source/Keyboard.o
- *fill*         0x0005463a        0x2 
+                0x000545a8       0xb6 ./framework/Keyboard/Source/Keyboard.o
+ *fill*         0x0005465e        0x2 
  .rodata.maGpioBases
-                0x0005463c        0xc ./framework/GPIO/GPIO_Adapter.o
+                0x00054660        0xc ./framework/GPIO/GPIO_Adapter.o
  .rodata.maPortBases
-                0x00054648        0xc ./framework/GPIO/GPIO_Adapter.o
+                0x0005466c        0xc ./framework/GPIO/GPIO_Adapter.o
  .rodata.maPortIrqId
-                0x00054654        0x3 ./framework/GPIO/GPIO_Adapter.o
- *fill*         0x00054657        0x1 
+                0x00054678        0x3 ./framework/GPIO/GPIO_Adapter.o
+ *fill*         0x0005467b        0x1 
  .rodata.mProdDataIdentifier
-                0x00054658        0xa ./framework/Flash/Internal/Flash_Adapter.o
- *fill*         0x00054662        0x2 
+                0x0005467c        0xa ./framework/Flash/Internal/Flash_Adapter.o
+ *fill*         0x00054686        0x2 
  .rodata.ADC16_GetInstance.str1.4
-                0x00054664       0x36 ./drivers/fsl_adc16.o
- *fill*         0x0005469a        0x2 
+                0x00054688       0x36 ./drivers/fsl_adc16.o
+ *fill*         0x000546be        0x2 
  .rodata.ADC16_Init.str1.4
-                0x0005469c       0x21 ./drivers/fsl_adc16.o
- *fill*         0x000546bd        0x3 
+                0x000546c0       0x21 ./drivers/fsl_adc16.o
+ *fill*         0x000546e1        0x3 
  .rodata.ADC16_GetDefaultConfig.str1.4
-                0x000546c0       0x22 ./drivers/fsl_adc16.o
- *fill*         0x000546e2        0x2 
+                0x000546e4       0x22 ./drivers/fsl_adc16.o
+ *fill*         0x00054706        0x2 
  .rodata.ADC16_SetChannelConfig.str1.4
-                0x000546e4       0x52 ./drivers/fsl_adc16.o
- *fill*         0x00054736        0x2 
+                0x00054708       0x52 ./drivers/fsl_adc16.o
+ *fill*         0x0005475a        0x2 
  .rodata.ADC16_GetChannelStatusFlags.str1.4
-                0x00054738       0x30 ./drivers/fsl_adc16.o
+                0x0005475c       0x30 ./drivers/fsl_adc16.o
  .rodata.CLOCK_GetMcgExtClkFreq.str1.4
-                0x00054768       0x40 ./drivers/fsl_clock.o
+                0x0005478c       0x40 ./drivers/fsl_clock.o
  .rodata.CLOCK_GetOsc0ErClkFreq.str1.4
-                0x000547a8       0x1f ./drivers/fsl_clock.o
- *fill*         0x000547c7        0x1 
+                0x000547cc       0x1f ./drivers/fsl_clock.o
+ *fill*         0x000547eb        0x1 
  .rodata.fllFactorTable.5633
-                0x000547c8       0x10 ./drivers/fsl_clock.o
+                0x000547ec       0x10 ./drivers/fsl_clock.o
  .rodata.__assertion_failed.str1.4
-                0x000547d8        0x4 ./drivers/fsl_common.o
+                0x000547fc        0x4 ./drivers/fsl_common.o
  .rodata.SPI0_DriverIRQHandler.str1.4
-                0x000547dc       0x23 ./drivers/fsl_dspi.o
- *fill*         0x000547ff        0x1 
- .rodata.SPI1_DriverIRQHandler.str1.4
                 0x00054800       0x23 ./drivers/fsl_dspi.o
  *fill*         0x00054823        0x1 
+ .rodata.SPI1_DriverIRQHandler.str1.4
+                0x00054824       0x23 ./drivers/fsl_dspi.o
+ *fill*         0x00054847        0x1 
  .rodata.kPFlashDensities
-                0x00054824       0x1e ./drivers/fsl_flash.o
-                0x00054824                kPFlashDensities
- *fill*         0x00054842        0x2 
+                0x00054848       0x1e ./drivers/fsl_flash.o
+                0x00054848                kPFlashDensities
+ *fill*         0x00054866        0x2 
  .rodata.s_flashCommonBitOperationFunctionCode
-                0x00054844       0x1c ./drivers/fsl_flash.o
+                0x00054868       0x1c ./drivers/fsl_flash.o
  .rodata.s_flashRunCommandFunctionCode
-                0x00054860        0xc ./drivers/fsl_flash.o
+                0x00054884        0xc ./drivers/fsl_flash.o
  .rodata.GPIO_PinInit.str1.4
-                0x0005486c       0x18 ./drivers/fsl_gpio.o
+                0x00054890       0x18 ./drivers/fsl_gpio.o
  .rodata.LPUART_GetInstance.str1.4
-                0x00054884       0x39 ./drivers/fsl_lpuart.o
- *fill*         0x000548bd        0x3 
+                0x000548a8       0x39 ./drivers/fsl_lpuart.o
+ *fill*         0x000548e1        0x3 
  .rodata.LPUART_Init.str1.4
-                0x000548c0       0x45 ./drivers/fsl_lpuart.o
- *fill*         0x00054905        0x3 
+                0x000548e4       0x45 ./drivers/fsl_lpuart.o
+ *fill*         0x00054929        0x3 
  .rodata.LPUART_GetDefaultConfig.str1.4
-                0x00054908       0x1b ./drivers/fsl_lpuart.o
- *fill*         0x00054923        0x1 
+                0x0005492c       0x1b ./drivers/fsl_lpuart.o
+ *fill*         0x00054947        0x1 
  .rodata.LPUART_SetBaudRate.str1.4
-                0x00054924       0x21 ./drivers/fsl_lpuart.o
- *fill*         0x00054945        0x3 
+                0x00054948       0x21 ./drivers/fsl_lpuart.o
+ *fill*         0x00054969        0x3 
  .rodata.TPM_GetInstance.str1.4
-                0x00054948       0x29 ./drivers/fsl_tpm.o
- *fill*         0x00054971        0x3 
+                0x0005496c       0x29 ./drivers/fsl_tpm.o
+ *fill*         0x00054995        0x3 
  .rodata.TPM_Init.str1.4
-                0x00054974       0x17 ./drivers/fsl_tpm.o
- *fill*         0x0005498b        0x1 
+                0x00054998       0x17 ./drivers/fsl_tpm.o
+ *fill*         0x000549af        0x1 
  .rodata.TPM_GetDefaultConfig.str1.4
-                0x0005498c       0x18 ./drivers/fsl_tpm.o
+                0x000549b0       0x18 ./drivers/fsl_tpm.o
  .rodata.TPM_SetupPwm.str1.4
-                0x000549a4       0xaf ./drivers/fsl_tpm.o
- *fill*         0x00054a53        0x1 
+                0x000549c8       0xaf ./drivers/fsl_tpm.o
+ *fill*         0x00054a77        0x1 
  .rodata.TPM_SetupOutputCompare.str1.4
-                0x00054a54       0x43 ./drivers/fsl_tpm.o
- *fill*         0x00054a97        0x1 
+                0x00054a78       0x43 ./drivers/fsl_tpm.o
+ *fill*         0x00054abb        0x1 
  .rodata.s_tpmBases
-                0x00054a98        0xc ./drivers/fsl_tpm.o
+                0x00054abc        0xc ./drivers/fsl_tpm.o
  .rodata.s_tpmClocks
-                0x00054aa4        0xc ./drivers/fsl_tpm.o
+                0x00054ac8        0xc ./drivers/fsl_tpm.o
  .rodata.trng_SetStatisticalCheckLimit
-                0x00054ab0       0x28 ./drivers/fsl_trng.o
+                0x00054ad4       0x28 ./drivers/fsl_trng.o
  .rodata.trng_GetInstance.str1.4
-                0x00054ad8       0x36 ./drivers/fsl_trng.o
- *fill*         0x00054b0e        0x2 
+                0x00054afc       0x36 ./drivers/fsl_trng.o
+ *fill*         0x00054b32        0x2 
  .rodata.TSI_Init.str1.4
-                0x00054b10       0x80 ./drivers/fsl_tsi_v4.o
+                0x00054b34       0x80 ./drivers/fsl_tsi_v4.o
  .rodata.simConfig_BOARD_BootClockRUN
-                0x00054b90        0x8 ./board/clock_config.o
-                0x00054b90                simConfig_BOARD_BootClockRUN
+                0x00054bb4        0x8 ./board/clock_config.o
+                0x00054bb4                simConfig_BOARD_BootClockRUN
  .rodata._global_impure_ptr
-                0x00054b98        0x4 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-impure.o)
-                0x00054b98                _global_impure_ptr
+                0x00054bbc        0x4 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-impure.o)
+                0x00054bbc                _global_impure_ptr
  .rodata._svfprintf_r.str1.4
-                0x00054b9c       0x42 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o)
- *fill*         0x00054bde        0x2 
+                0x00054bc0       0x42 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o)
+ *fill*         0x00054c02        0x2 
  .rodata._svfprintf_r
-                0x00054be0      0x16c d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o)
+                0x00054c04      0x16c d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o)
  .rodata.blanks.7345
-                0x00054d4c       0x10 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o)
+                0x00054d70       0x10 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o)
  .rodata.zeroes.7346
-                0x00054d5c       0x10 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o)
+                0x00054d80       0x10 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-svfprintf.o)
  .rodata._dtoa_r.str1.4
-                0x00054d6c        0xd d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-dtoa.o)
+                0x00054d90        0xd d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-dtoa.o)
                                  0x12 (size before relaxing)
- *fill*         0x00054d79        0x3 
+ *fill*         0x00054d9d        0x3 
  .rodata.p05.6115
-                0x00054d7c        0xc d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
+                0x00054da0        0xc d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-mprec.o)
  .rodata._setlocale_r.str1.4
-                0x00054d88        0xa d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-locale.o)
+                0x00054dac        0xa d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-locale.o)
                                   0xd (size before relaxing)
  .rodata.str1.4
-                0x00054d92        0xa d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-locale.o)
+                0x00054db6        0xa d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-locale.o)
                                   0x2 (size before relaxing)
- *fill*         0x00054d92        0x2 
+ *fill*         0x00054db6        0x2 
  .rodata._ctype_
-                0x00054d94      0x101 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-ctype_.o)
-                0x00054d94                _ctype_
- *fill*         0x00054e95        0x1 
+                0x00054db8      0x101 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-ctype_.o)
+                0x00054db8                _ctype_
+ *fill*         0x00054eb9        0x1 
  .rodata.aStaticEventsTableSize
-                0x00054e96        0x2 ./nwk_ip/base/stack_globals/event_manager_globals.o
-                0x00054e96                aStaticEventsTableSize
+                0x00054eba        0x2 ./nwk_ip/base/stack_globals/event_manager_globals.o
+                0x00054eba                aStaticEventsTableSize
  .rodata.gThrActiveScanRetries
-                0x00054e98        0x2 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054e98                gThrActiveScanRetries
+                0x00054ebc        0x2 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054ebc                gThrActiveScanRetries
  .rodata.gThrDiscoveryMaxJitter
-                0x00054e9a        0x2 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054e9a                gThrDiscoveryMaxJitter
+                0x00054ebe        0x2 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054ebe                gThrDiscoveryMaxJitter
  .rodata.gThrDiscoveryTime
-                0x00054e9c        0x2 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054e9c                gThrDiscoveryTime
+                0x00054ec0        0x2 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054ec0                gThrDiscoveryTime
  .rodata.gThrEDAttachRetryInitialTimeout
-                0x00054e9e        0x2 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054e9e                gThrEDAttachRetryInitialTimeout
+                0x00054ec2        0x2 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054ec2                gThrEDAttachRetryInitialTimeout
  .rodata.gThrEDAttachRetryMaxTimeout
-                0x00054ea0        0x2 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054ea0                gThrEDAttachRetryMaxTimeout
+                0x00054ec4        0x2 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054ec4                gThrEDAttachRetryMaxTimeout
  .rodata.gThrEDLostParentAttachRetries
-                0x00054ea2        0x2 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054ea2                gThrEDLostParentAttachRetries
+                0x00054ec6        0x2 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054ec6                gThrEDLostParentAttachRetries
  .rodata.gThrMaxReattachJitterMs
-                0x00054ea4        0x2 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054ea4                gThrMaxReattachJitterMs
+                0x00054ec8        0x2 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054ec8                gThrMaxReattachJitterMs
  .rodata.gThrMinReattachJitterMs
-                0x00054ea6        0x2 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054ea6                gThrMinReattachJitterMs
+                0x00054eca        0x2 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054eca                gThrMinReattachJitterMs
  .rodata.gMgmtDiagNvmDataSize
-                0x00054ea8        0x1 ./nwk_ip/base/utils/nv_data.o
-                0x00054ea8                gMgmtDiagNvmDataSize
+                0x00054ecc        0x1 ./nwk_ip/base/utils/nv_data.o
+                0x00054ecc                gMgmtDiagNvmDataSize
  .rodata.gDtlsMaxContexts
-                0x00054ea9        0x1 ./nwk_ip/base/stack_globals/dtls_globals.o
-                0x00054ea9                gDtlsMaxContexts
+                0x00054ecd        0x1 ./nwk_ip/base/stack_globals/dtls_globals.o
+                0x00054ecd                gDtlsMaxContexts
  .rodata.gDtlsMaxSimConnectingClients
-                0x00054eaa        0x1 ./nwk_ip/base/stack_globals/dtls_globals.o
-                0x00054eaa                gDtlsMaxSimConnectingClients
+                0x00054ece        0x1 ./nwk_ip/base/stack_globals/dtls_globals.o
+                0x00054ece                gDtlsMaxSimConnectingClients
  .rodata.gIcmpMsgTypeHandlerSize
-                0x00054eab        0x1 ./nwk_ip/base/stack_globals/icmp_globals.o
-                0x00054eab                gIcmpMsgTypeHandlerSize
+                0x00054ecf        0x1 ./nwk_ip/base/stack_globals/icmp_globals.o
+                0x00054ecf                gIcmpMsgTypeHandlerSize
  .rodata.mMplNvmSaveThreshold
-                0x00054eac        0x1 ./nwk_ip/base/stack_globals/mpl_globals.o
-                0x00054eac                mMplNvmSaveThreshold
+                0x00054ed0        0x1 ./nwk_ip/base/stack_globals/mpl_globals.o
+                0x00054ed0                mMplNvmSaveThreshold
  .rodata.gLocalServiceSetTblSize
-                0x00054ead        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054ead                gLocalServiceSetTblSize
+                0x00054ed1        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054ed1                gLocalServiceSetTblSize
  .rodata.gNwkPoolId
-                0x00054eae        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054eae                gNwkPoolId
+                0x00054ed2        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054ed2                gNwkPoolId
  .rodata.gThrChildAddrRegEntries
-                0x00054eaf        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054eaf                gThrChildAddrRegEntries
+                0x00054ed3        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054ed3                gThrChildAddrRegEntries
  .rodata.gThrChildMcastAddrRegEntries
-                0x00054eb0        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054eb0                gThrChildMcastAddrRegEntries
+                0x00054ed4        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054ed4                gThrChildMcastAddrRegEntries
  .rodata.gThrFailChildTransmissions
-                0x00054eb1        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054eb1                gThrFailChildTransmissions
+                0x00054ed5        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054ed5                gThrFailChildTransmissions
  .rodata.gThrFailRouterTransmissions
-                0x00054eb2        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054eb2                gThrFailRouterTransmissions
+                0x00054ed6        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054ed6                gThrFailRouterTransmissions
  .rodata.gThrHandleTrackingTableSize
-                0x00054eb3        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054eb3                gThrHandleTrackingTableSize
+                0x00054ed7        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054ed7                gThrHandleTrackingTableSize
  .rodata.gThrLeaderIDSeqPeriod
-                0x00054eb4        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054eb4                gThrLeaderIDSeqPeriod
+                0x00054ed8        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054ed8                gThrLeaderIDSeqPeriod
  .rodata.gThrMaxDiscNwkToFormNwk
-                0x00054eb5        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054eb5                gThrMaxDiscNwkToFormNwk
+                0x00054ed9        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054ed9                gThrMaxDiscNwkToFormNwk
  .rodata.gThrMaxLinkSyncNeighbors
-                0x00054eb6        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054eb6                gThrMaxLinkSyncNeighbors
+                0x00054eda        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054eda                gThrMaxLinkSyncNeighbors
  .rodata.gThrMaxNwkAttachParents
-                0x00054eb7        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054eb7                gThrMaxNwkAttachParents
+                0x00054edb        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054edb                gThrMaxNwkAttachParents
  .rodata.gThrMaxSleepyEdNeighbors
-                0x00054eb8        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054eb8                gThrMaxSleepyEdNeighbors
+                0x00054edc        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054edc                gThrMaxSleepyEdNeighbors
  .rodata.gThrNwkDataBrSetTblSize
-                0x00054eb9        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054eb9                gThrNwkDataBrSetTblSize
+                0x00054edd        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054edd                gThrNwkDataBrSetTblSize
  .rodata.gThrNwkDataContextIdTblSize
-                0x00054eba        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054eba                gThrNwkDataContextIdTblSize
+                0x00054ede        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054ede                gThrNwkDataContextIdTblSize
  .rodata.gThrNwkDataExtRouteTblSize
-                0x00054ebb        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054ebb                gThrNwkDataExtRouteTblSize
+                0x00054edf        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054edf                gThrNwkDataExtRouteTblSize
  .rodata.gThrNwkDataPrefixTblSize
-                0x00054ebc        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054ebc                gThrNwkDataPrefixTblSize
+                0x00054ee0        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054ee0                gThrNwkDataPrefixTblSize
  .rodata.gThrNwkDataServiceSetMaxServerNb
-                0x00054ebd        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054ebd                gThrNwkDataServiceSetMaxServerNb
+                0x00054ee1        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054ee1                gThrNwkDataServiceSetMaxServerNb
  .rodata.gThrNwkDataServiceSetTblSize
-                0x00054ebe        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054ebe                gThrNwkDataServiceSetTblSize
+                0x00054ee2        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054ee2                gThrNwkDataServiceSetTblSize
  .rodata.gThrProtocolVersion
-                0x00054ebf        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054ebf                gThrProtocolVersion
+                0x00054ee3        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054ee3                gThrProtocolVersion
  .rodata.gThrServerDataBrSetTblSize
-                0x00054ec0        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054ec0                gThrServerDataBrSetTblSize
+                0x00054ee4        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054ee4                gThrServerDataBrSetTblSize
  .rodata.gThrServerDataDnsAddrTblSize
-                0x00054ec1        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054ec1                gThrServerDataDnsAddrTblSize
+                0x00054ee5        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054ee5                gThrServerDataDnsAddrTblSize
  .rodata.gThrServerDataExtRouteTblSize
-                0x00054ec2        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054ec2                gThrServerDataExtRouteTblSize
+                0x00054ee6        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054ee6                gThrServerDataExtRouteTblSize
  .rodata.gThrServerDataPrefixTblSize
-                0x00054ec3        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054ec3                gThrServerDataPrefixTblSize
+                0x00054ee7        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054ee7                gThrServerDataPrefixTblSize
  .rodata.gThrSlaacTempAddrTblSize
-                0x00054ec4        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
-                0x00054ec4                gThrSlaacTempAddrTblSize
+                0x00054ee8        0x1 ./nwk_ip/base/stack_globals/thread_globals.o
+                0x00054ee8                gThrSlaacTempAddrTblSize
  .rodata.udpHopDefaultLimit
-                0x00054ec5        0x1 ./nwk_ip/base/stack_globals/udp_globals.o
-                0x00054ec5                udpHopDefaultLimit
+                0x00054ee9        0x1 ./nwk_ip/base/stack_globals/udp_globals.o
+                0x00054ee9                udpHopDefaultLimit
  .rodata.gShellProtMsgTypeHandlerTbl4Size
-                0x00054ec6        0x1 ./nwk_ip/base/shell/shell_ip.o
-                0x00054ec6                gShellProtMsgTypeHandlerTbl4Size
+                0x00054eea        0x1 ./nwk_ip/base/shell/shell_ip.o
+                0x00054eea                gShellProtMsgTypeHandlerTbl4Size
  .rodata.gShellProtMsgTypeHandlerTbl6Size
-                0x00054ec7        0x1 ./nwk_ip/base/shell/shell_ip.o
-                0x00054ec7                gShellProtMsgTypeHandlerTbl6Size
+                0x00054eeb        0x1 ./nwk_ip/base/shell/shell_ip.o
+                0x00054eeb                gShellProtMsgTypeHandlerTbl6Size
  .rodata.gPhyIndirectQueueSize_c
-                0x00054ec8        0x1 ./ieee_802.15.4/phy/source/MKW41Z/PhyPacketProcessor.o
-                0x00054ec8                gPhyIndirectQueueSize_c
+                0x00054eec        0x1 ./ieee_802.15.4/phy/source/MKW41Z/PhyPacketProcessor.o
+                0x00054eec                gPhyIndirectQueueSize_c
  .rodata.gPhyPoolId
-                0x00054ec9        0x1 ./ieee_802.15.4/phy/source/MKW41Z/PhyStateMachine.o
-                0x00054ec9                gPhyPoolId
+                0x00054eed        0x1 ./ieee_802.15.4/phy/source/MKW41Z/PhyStateMachine.o
+                0x00054eed                gPhyPoolId
  .rodata.gMacNoOfInstances
-                0x00054eca        0x1 ./ieee_802.15.4/mac/source/App/MacGlobals.o
-                0x00054eca                gMacNoOfInstances
+                0x00054eee        0x1 ./ieee_802.15.4/mac/source/App/MacGlobals.o
+                0x00054eee                gMacNoOfInstances
  .rodata.gMacPoolId
-                0x00054ecb        0x1 ./ieee_802.15.4/mac/source/App/MacGlobals.o
-                0x00054ecb                gMacPoolId
+                0x00054eef        0x1 ./ieee_802.15.4/mac/source/App/MacGlobals.o
+                0x00054eef                gMacPoolId
  .rodata.gMacWipeSecurityTables
-                0x00054ecc        0x1 ./ieee_802.15.4/mac/source/App/MacGlobals.o
-                0x00054ecc                gMacWipeSecurityTables
+                0x00054ef0        0x1 ./ieee_802.15.4/mac/source/App/MacGlobals.o
+                0x00054ef0                gMacWipeSecurityTables
  .rodata.gUseRtos_c
-                0x00054ecd        0x1 ./framework/OSAbstraction/Source/fsl_os_abstraction_free_rtos.o
-                0x00054ecd                gUseRtos_c
+                0x00054ef1        0x1 ./framework/OSAbstraction/Source/fsl_os_abstraction_free_rtos.o
+                0x00054ef1                gUseRtos_c
  *(SORT_BY_ALIGNMENT(.glue_7))
- .glue_7        0x00054ece        0x0 linker stubs
+ .glue_7        0x00054ef2        0x0 linker stubs
  *(SORT_BY_ALIGNMENT(.glue_7t))
- .glue_7t       0x00054ece        0x0 linker stubs
+ .glue_7t       0x00054ef2        0x0 linker stubs
  *(SORT_BY_ALIGNMENT(.eh_frame))
- *fill*         0x00054ece        0x2 
- .eh_frame      0x00054ed0        0x0 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
+ *fill*         0x00054ef2        0x2 
+ .eh_frame      0x00054ef4        0x0 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
  *(.init)
- .init          0x00054ed0        0x4 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crti.o
-                0x00054ed0                _init
- .init          0x00054ed4        0x8 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtn.o
+ .init          0x00054ef4        0x4 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crti.o
+                0x00054ef4                _init
+ .init          0x00054ef8        0x8 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtn.o
  *(.fini)
- .fini          0x00054edc        0x4 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crti.o
-                0x00054edc                _fini
- .fini          0x00054ee0        0x8 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtn.o
-                0x00054ee8                . = ALIGN (0x4)
+ .fini          0x00054f00        0x4 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crti.o
+                0x00054f00                _fini
+ .fini          0x00054f04        0x8 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtn.o
+                0x00054f0c                . = ALIGN (0x4)
 
-.vfp11_veneer   0x00054ee8        0x0
- .vfp11_veneer  0x00054ee8        0x0 linker stubs
+.vfp11_veneer   0x00054f0c        0x0
+ .vfp11_veneer  0x00054f0c        0x0 linker stubs
 
-.v4_bx          0x00054ee8        0x0
- .v4_bx         0x00054ee8        0x0 linker stubs
+.v4_bx          0x00054f0c        0x0
+ .v4_bx         0x00054f0c        0x0 linker stubs
 
-.iplt           0x00054ee8        0x0
- .iplt          0x00054ee8        0x0 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x00054f0c        0x0
+ .iplt          0x00054f0c        0x0 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.NVM_TABLE      0x00054ee8      0x144
-                0x00054ee8                . = ALIGN (0x4)
-                0x00054ee8                PROVIDE (__start_NVM_TABLE = .)
+.NVM_TABLE      0x00054f0c      0x144
+                0x00054f0c                . = ALIGN (0x4)
+                0x00054f0c                PROVIDE (__start_NVM_TABLE = .)
  *(SORT_BY_ALIGNMENT(.NVM_TABLE))
- .NVM_TABLE     0x00054ee8      0x144 ./nwk_ip/base/utils/nv_data.o
-                0x00054ee8                gNvmTableEntry_0x001D
-                0x00054ef4                gNvmTableEntry_0x0015
-                0x00054f00                gNvmTableEntry_0x0016
-                0x00054f0c                gNvmTableEntry_0x0004
-                0x00054f18                gNvmTableEntry_0x0017
-                0x00054f24                gNvmTableEntry_0x0014
-                0x00054f30                gNvmTableEntry_0x0012
-                0x00054f3c                gNvmTableEntry_0x0019
-                0x00054f48                gNvmTableEntry_0x0026
-                0x00054f54                gNvmTableEntry_0x0025
-                0x00054f60                gNvmTableEntry_0x0024
-                0x00054f6c                gNvmTableEntry_0x0023
-                0x00054f78                gNvmTableEntry_0x0022
-                0x00054f84                gNvmTableEntry_0x001F
-                0x00054f90                gNvmTableEntry_0x001E
-                0x00054f9c                gNvmTableEntry_0x0018
-                0x00054fa8                gNvmTableEntry_0x0010
-                0x00054fb4                gNvmTableEntry_0x0013
-                0x00054fc0                gNvmTableEntry_0x000B
-                0x00054fcc                gNvmTableEntry_0x0008
-                0x00054fd8                gNvmTableEntry_0x0007
-                0x00054fe4                gNvmTableEntry_0x000A
-                0x00054ff0                gNvmTableEntry_0x0021
-                0x00054ffc                gNvmTableEntry_0x000F
-                0x00055008                gNvmTableEntry_0x0006
-                0x00055014                gNvmTableEntry_0x0002
-                0x00055020                gNvmTableEntry_0x0001
-                0x0005502c                PROVIDE (__stop_NVM_TABLE = .)
-                0x0005502c                . = ALIGN (0x4)
-
-.VERSION_TAGS   0x0005502c       0x24
-                0x0005502c                . = ALIGN (0x4)
-                0x0005502c                PROVIDE (__start_VERSION_TAGS = .)
- *(SORT_BY_ALIGNMENT(.VERSION_TAGS))
- .VERSION_TAGS  0x0005502c        0xc ./framework/ModuleInfo/ModuleInfo.o
-                0x0005502c                FWK_VERSION
- .VERSION_TAGS  0x00055038        0xc D:\Andre\OneDrive - ITESO\7 Semestre\RSE\frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_router\libs\lib802.15.4_mac_thr_cm0.a(MacVersion.o)
-                0x00055038                MAC_VERSION
- .VERSION_TAGS  0x00055044        0xc D:\Andre\OneDrive - ITESO\7 Semestre\RSE\frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_router\libs\lib_thread_cm0.a(network_utils.o)
-                0x00055044                IP_version
- .VERSION_TAGS  0x00055050        0x0 D:\Andre\OneDrive - ITESO\7 Semestre\RSE\frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_router\libs\lib802.15.4_mac_thr_cm0.a(MacVersion.o)
- .VERSION_TAGS  0x00055050        0x0 D:\Andre\OneDrive - ITESO\7 Semestre\RSE\frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_router\libs\lib_thread_cm0.a(network_utils.o)
-                0x00055050                PROVIDE (__stop_VERSION_TAGS = .)
+ .NVM_TABLE     0x00054f0c      0x144 ./nwk_ip/base/utils/nv_data.o
+                0x00054f0c                gNvmTableEntry_0x001D
+                0x00054f18                gNvmTableEntry_0x0015
+                0x00054f24                gNvmTableEntry_0x0016
+                0x00054f30                gNvmTableEntry_0x0004
+                0x00054f3c                gNvmTableEntry_0x0017
+                0x00054f48                gNvmTableEntry_0x0014
+                0x00054f54                gNvmTableEntry_0x0012
+                0x00054f60                gNvmTableEntry_0x0019
+                0x00054f6c                gNvmTableEntry_0x0026
+                0x00054f78                gNvmTableEntry_0x0025
+                0x00054f84                gNvmTableEntry_0x0024
+                0x00054f90                gNvmTableEntry_0x0023
+                0x00054f9c                gNvmTableEntry_0x0022
+                0x00054fa8                gNvmTableEntry_0x001F
+                0x00054fb4                gNvmTableEntry_0x001E
+                0x00054fc0                gNvmTableEntry_0x0018
+                0x00054fcc                gNvmTableEntry_0x0010
+                0x00054fd8                gNvmTableEntry_0x0013
+                0x00054fe4                gNvmTableEntry_0x000B
+                0x00054ff0                gNvmTableEntry_0x0008
+                0x00054ffc                gNvmTableEntry_0x0007
+                0x00055008                gNvmTableEntry_0x000A
+                0x00055014                gNvmTableEntry_0x0021
+                0x00055020                gNvmTableEntry_0x000F
+                0x0005502c                gNvmTableEntry_0x0006
+                0x00055038                gNvmTableEntry_0x0002
+                0x00055044                gNvmTableEntry_0x0001
+                0x00055050                PROVIDE (__stop_NVM_TABLE = .)
                 0x00055050                . = ALIGN (0x4)
+
+.VERSION_TAGS   0x00055050       0x24
+                0x00055050                . = ALIGN (0x4)
+                0x00055050                PROVIDE (__start_VERSION_TAGS = .)
+ *(SORT_BY_ALIGNMENT(.VERSION_TAGS))
+ .VERSION_TAGS  0x00055050        0xc ./framework/ModuleInfo/ModuleInfo.o
+                0x00055050                FWK_VERSION
+ .VERSION_TAGS  0x0005505c        0xc D:\Andre\OneDrive - ITESO\7 Semestre\RSE\frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_router\libs\lib802.15.4_mac_thr_cm0.a(MacVersion.o)
+                0x0005505c                MAC_VERSION
+ .VERSION_TAGS  0x00055068        0xc D:\Andre\OneDrive - ITESO\7 Semestre\RSE\frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_router\libs\lib_thread_cm0.a(network_utils.o)
+                0x00055068                IP_version
+ .VERSION_TAGS  0x00055074        0x0 D:\Andre\OneDrive - ITESO\7 Semestre\RSE\frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_router\libs\lib802.15.4_mac_thr_cm0.a(MacVersion.o)
+ .VERSION_TAGS  0x00055074        0x0 D:\Andre\OneDrive - ITESO\7 Semestre\RSE\frdmkw41z_wireless_examples_thread_router_eligible_device_freertos_router\libs\lib_thread_cm0.a(network_utils.o)
+                0x00055074                PROVIDE (__stop_VERSION_TAGS = .)
+                0x00055074                . = ALIGN (0x4)
 
 .ARM.extab
  *(SORT_BY_ALIGNMENT(.ARM.extab*) SORT_BY_ALIGNMENT(.gnu.linkonce.armextab.*))
 
-.ARM            0x00055050        0x8
-                0x00055050                __exidx_start = .
+.ARM            0x00055074        0x8
+                0x00055074                __exidx_start = .
  *(SORT_BY_ALIGNMENT(.ARM.exidx*))
- .ARM.exidx     0x00055050        0x8 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
- .ARM.exidx     0x00055058        0x0 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .ARM.exidx     0x00055074        0x8 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+ .ARM.exidx     0x0005507c        0x0 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
                                   0x8 (size before relaxing)
-                0x00055058                __exidx_end = .
+                0x0005507c                __exidx_end = .
 
-.rel.dyn        0x00055058        0x0
- .rel.iplt      0x00055058        0x0 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x0005507c        0x0
+ .rel.iplt      0x0005507c        0x0 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.ctors          0x00055058        0x0
-                0x00055058                __CTOR_LIST__ = .
+.ctors          0x0005507c        0x0
+                0x0005507c                __CTOR_LIST__ = .
  *crtbegin.o(SORT_BY_ALIGNMENT(.ctors))
  *crtbegin?.o(SORT_BY_ALIGNMENT(.ctors))
  *(SORT_BY_ALIGNMENT(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors))
  *(SORT_BY_NAME(SORT_BY_ALIGNMENT(.ctors.*)))
  *(SORT_BY_ALIGNMENT(.ctors))
-                0x00055058                __CTOR_END__ = .
+                0x0005507c                __CTOR_END__ = .
 
-.dtors          0x00055058        0x0
-                0x00055058                __DTOR_LIST__ = .
+.dtors          0x0005507c        0x0
+                0x0005507c                __DTOR_LIST__ = .
  *crtbegin.o(SORT_BY_ALIGNMENT(.dtors))
  *crtbegin?.o(SORT_BY_ALIGNMENT(.dtors))
  *(SORT_BY_ALIGNMENT(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors))
  *(SORT_BY_NAME(SORT_BY_ALIGNMENT(.dtors.*)))
  *(SORT_BY_ALIGNMENT(.dtors))
-                0x00055058                __DTOR_END__ = .
+                0x0005507c                __DTOR_END__ = .
 
-.preinit_array  0x00055058        0x0
-                0x00055058                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0005507c        0x0
+                0x0005507c                PROVIDE (__preinit_array_start = .)
  *(SORT_BY_ALIGNMENT(.preinit_array*))
-                0x00055058                PROVIDE (__preinit_array_end = .)
+                0x0005507c                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x00055058        0x8
-                0x00055058                PROVIDE (__init_array_start = .)
+.init_array     0x0005507c        0x8
+                0x0005507c                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(SORT_BY_ALIGNMENT(.init_array.*)))
  .init_array.00000
-                0x00055058        0x4 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-__call_atexit.o)
+                0x0005507c        0x4 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-__call_atexit.o)
  *(SORT_BY_ALIGNMENT(.init_array*))
- .init_array    0x0005505c        0x4 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x00055060                PROVIDE (__init_array_end = .)
+ .init_array    0x00055080        0x4 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x00055084                PROVIDE (__init_array_end = .)
 
-.fini_array     0x00055060        0x4
-                0x00055060                PROVIDE (__fini_array_start = .)
+.fini_array     0x00055084        0x4
+                0x00055084                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(SORT_BY_ALIGNMENT(.fini_array.*)))
  *(SORT_BY_ALIGNMENT(.fini_array*))
- .fini_array    0x00055060        0x4 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x00055064                PROVIDE (__fini_array_end = .)
-                0x00055064                __etext = .
-                0x00055064                __DATA_ROM = .
+ .fini_array    0x00055084        0x4 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x00055088                PROVIDE (__fini_array_end = .)
+                0x00055088                __etext = .
+                0x00055088                __DATA_ROM = .
 
 .mtb            0x20000000        0x0
                 0x20000000                . = ALIGN (0x8)
@@ -8419,7 +8419,7 @@ LOAD d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.
                 0x20000000                __VECTOR_RAM = __VECTOR_RAM__
                 0x000000c0                __RAM_VECTOR_TABLE_SIZE_BYTES = (__interrupts_ram_end__ - __interrupts_ram_start__)
 
-.data           0x200000c0      0xeb8 load address 0x00055064
+.data           0x200000c0      0xeb8 load address 0x00055088
                 0x200000c0                . = ALIGN (0x4)
                 0x200000c0                __DATA_RAM = .
                 0x200000c0                __data_start__ = .
@@ -8692,14 +8692,14 @@ LOAD d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.
                 0x20000f78                . = ALIGN (0x4)
  *fill*         0x20000f75        0x3 
                 0x20000f78                __data_end__ = .
-                0x00055f1c                __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
+                0x00055f40                __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
                 0x0006f7ff                text_end = (ORIGIN (TEXT_region2) + LENGTH (TEXT_region2))
                 0x00000001                ASSERT ((__DATA_END <= text_end), region m_text overflowed with text and data)
 
-.igot.plt       0x20000f78        0x0 load address 0x00055f1c
+.igot.plt       0x20000f78        0x0 load address 0x00055f40
  .igot.plt      0x20000f78        0x0 d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.2.0.202008311134/tools/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.bss            0x20000f78     0xdf40 load address 0x00055f20
+.bss            0x20000f78     0xdf40 load address 0x00055f40
                 0x20000f78                . = ALIGN (0x4)
                 0x20000f78                __START_BSS = .
                 0x20000f78                __bss_start__ = .
@@ -9485,7 +9485,7 @@ LOAD d:/mcuxpressoide_11.2.1_4149/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.
                 0x2000eeb8                . = (. + __size_heap__)
                 0x2000eeb8                __HeapLimit = .
 
-.stack          0x2000eeb8      0x200 load address 0x00063e60
+.stack          0x2000eeb8      0x200 load address 0x00063e80
                 0x2000eeb8                . = ALIGN (0x8)
                 0x2000f0b8                . = (. + __size_cstack__)
  *fill*         0x2000eeb8      0x200 

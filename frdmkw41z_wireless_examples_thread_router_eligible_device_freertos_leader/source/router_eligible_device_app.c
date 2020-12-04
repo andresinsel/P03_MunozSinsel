@@ -1416,7 +1416,7 @@ static void APP_CoapAccelCb
         }
         else
         {
-        	COAP_Send(pSession, gCoapMsgTypeEmptyAck_c, pAccelString, ackPloadSize);
+        	COAP_Send(pSession, gCoapMsgTypeAckSuccessChanged_c, NULL, 0);
         }
 
 
